@@ -11,7 +11,7 @@ Steps:
 4. Once the client secret is created, the value will only be exposed once and needs to be copied into Key-Vault or another appropriate password manager tool.
 5. The next step would be to give appropriate API Permissions to the APP to enable accessing Power BI objects. Click on “API permissions” from the menu bar on the left under “Manage”.
 6. Once opened, click on “Delegated permissions” and select the appropriate permissions to be given to the App and click “Add permissions” from the bottom. The important ones are:
-![Alt text](https://github.com/hanashah-01/Semantic-Model-Refresh/blob/main/api-permissions.png)
+![Alt text](https://github.com/hanashah-01/Power-BI-Semantic-Model-Refresh/blob/main/api-permissions.png)
 8. Once the App is registered, the next step is to create a Security Group that will have the App Id (Service Principal) as one of the members.
 9. Open Azure Portal and browse “Groups” to create a new security group. To create a security group, you will need at least “Group Creator” or higher permissions.
 10. Click on “New group” to create a new security group. Select “Security” as “Group Type” and provide the appropriate group name under “Group name”. Next, click on “No members selected” from the bottom left to add Service Principal as a member. Once the App ID is selected then click on “Select” from the bottom to save the configuration.
